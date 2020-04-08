@@ -14,6 +14,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 body{
     height:100%;
     color:rgb(92, 89, 89);
+    font-family: arial, sans-serif;
+    font-size:15px;
 }
 ul {
     margin: 0;
@@ -45,17 +47,32 @@ nav div{
 nav div ul{
     display: flex;
 }
+
+
+.apps{
+    padding:0;
+    margin:0 15px;
+}
+.apps-img{
+    width:23px;
+    margin-top: 7px;
+    opacity: 0.6;
+}
+
+
 .right-top{
     margin:7px 20px 0 0;
 }
 
 .sign-in-box{
     background-color: rgb(63, 128, 250);
-    border-radius: 5px;
+    border-radius: 3px;
     padding:0;
     width: 70px;
+    height:30px;
     text-align: center;
-    line-height:35px;
+    line-height:30px;
+    margin:3px 0 0 5px;
 }
 .sign-in-box a{
     color:white;
@@ -74,7 +91,7 @@ nav div ul{
     width:300px;
     margin:20px auto;
 }
-img{
+.logo img{
     width:100%;
 
 }
@@ -85,7 +102,7 @@ form{
 }
 input{
     width:100%;
-    height:30px;
+    height:40px;
     border-radius: 20px;
     border:1px solid rgb(226, 226, 226)
 }
